@@ -15,11 +15,10 @@ jobs:
   script: echo Job1 -  Hello,world,changed!
     displayName:'Run a one-Line script'
   - script:
-      echo Add other tasks to build,test,and deploy your project.
+      echo Add other tasks to build, test, and deploy your project.
       echo See https://aka.ms/yaml
       echo more information
-    
-    displayName: 'Run a multi-line script'
+    displayName: 'Run a multi-Line script'
 - job: Job2
   steps:
   - script: echo Job2!
