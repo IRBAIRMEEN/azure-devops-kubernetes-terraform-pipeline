@@ -13,7 +13,7 @@ stages:
     steps:
     - bash: echo Build firstJob
     - bash: echo $(PipelineLevelVariable)
-    - bash: echo  $(Build.BuilddNumber)
+    - bash: echo  $(Build.BuildNumber)
     - bash: echo $(Build.buildId)
     - bash: echo $(Build.SourceBranchName)
     - bash: echo $(Build.SourceDirectory)
